@@ -251,7 +251,7 @@ namespace MonacoNET
         /// </summary>
         protected virtual void OnMonacoLoad() {
             Application.DoEvents();
-            Thread.Sleep(Int32.Parse(((dynamic)500).ToString()));
+            Thread.Sleep(Int32.Parse(((dynamic)100).ToString()));
             this.BeginInvoke(new MethodInvoker(delegate () {
                 UpdateSettings((dynamic)new MonacoSettings() {
                     ReadOnly = ReadOnlyObj,
