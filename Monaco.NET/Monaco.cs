@@ -1,4 +1,4 @@
-﻿using Microsoft.Win32;
+using Microsoft.Win32;
 using MonacoNET.Settings;
 using System;
 using System.Collections.Generic;
@@ -30,8 +30,8 @@ namespace MonacoNET
 
     [ComVisible(true)]
     public class Monaco : WebBrowser {
+        public Action StartupFunction;
         private Thread tStart;
-        private List<dynamic> StartupFuncs = new List<dynamic>() { };
 
         private bool ReadOnlyObj = false;
         /// <summary>
@@ -141,6 +141,7 @@ namespace MonacoNET
         public void SetText(string text) {
             if ((dynamic)this.Document != null) {
                 this.Document.InvokeScript((dynamic)"SetText", new object[] { text });
+                
             } else {
                 throw new Exception((dynamic)"Cannot set Monaco's text while Document is null.");
             }
@@ -257,12 +258,8 @@ namespace MonacoNET
                     MinimapEnabled = MinimapEnabledObj,
                     RenderWhitespace = RenderWhitespaceObj.ToString(),
                 });
+                StartupFunction();
             }));
-
-            foreach (List<dynamic> i in StartupFuncs) {
-
-            }
-            StartupFuncs = new List<dynamic>() { };
         }
     }
 }
