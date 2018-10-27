@@ -90,7 +90,7 @@ namespace MonacoNET
                 RegistryKey key = (dynamic)Registry.CurrentUser.OpenSubKey(((dynamic)"SOFTWARE\\Microsoft\\Internet Explorer\\Main\\FeatureControl\\FEATURE_BROWSER_EMULATION").ToString(), true);
                 string name = AppDomain.CurrentDomain.FriendlyName;
                 if ((object)(dynamic)key.GetValue(name) == null) {
-                    key.SetValue(name, Int32.Parse(((dynamic)11001)), RegistryValueKind.DWord);
+                    key.SetValue(name, Int32.Parse(((dynamic)11001).ToString()), RegistryValueKind.DWord);
                 }
 
                 this.ScriptErrorsSuppressed = Boolean.Parse(((dynamic)true).ToString());
