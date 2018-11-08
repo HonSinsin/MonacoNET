@@ -23,6 +23,9 @@ Here is the Current Roadmap I have planned out:
   - Support for More Bindings and API Features
   - Fixing Bugs
   - Feature Requests
+  
+This project has been discontinued due to people taking code from this project and claiming it's theirs.
+I'll most likely recontinue this sometime, but for now I'm just done with this.
 
 ## Images
 ![GIF1](https://i.imgur.com/ED8wFzC.gif)
