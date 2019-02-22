@@ -4,3 +4,9 @@ C:\Users\morph\source\repos\Monaco.NET\Monaco.NET\obj\Debug\Monaco.NET.pdb
 C:\Users\morph\source\repos\Monaco.NET\Monaco.NET\bin\Debug\Monaco.NET.dll
 C:\Users\morph\source\repos\Monaco.NET\Monaco.NET\bin\Debug\Monaco.NET.pdb
 C:\Users\morph\source\repos\Monaco.NET\Monaco.NET\obj\Debug\MonacoNET.csprojAssemblyReference.cache
+E:\fengxinxin\fxx_github\MonacoNET\Monaco.NET\bin\Debug\Monaco.NET.dll
+E:\fengxinxin\fxx_github\MonacoNET\Monaco.NET\bin\Debug\Monaco.NET.pdb
+E:\fengxinxin\fxx_github\MonacoNET\Monaco.NET\obj\Debug\Monaco.NET.dll
+E:\fengxinxin\fxx_github\MonacoNET\Monaco.NET\obj\Debug\Monaco.NET.pdb
+E:\fengxinxin\fxx_github\MonacoNET\Monaco.NET\obj\Debug\MonacoNET.csprojAssemblyReference.cache
+E:\fengxinxin\fxx_github\MonacoNET\Monaco.NET\obj\Debug\MonacoNET.csproj.CoreCompileInputs.cache
