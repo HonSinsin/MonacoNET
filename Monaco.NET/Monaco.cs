@@ -200,6 +200,17 @@ namespace MonacoNET
             }
         }
 
+        public void ShowMiniMap(bool shown)
+        {
+            if (this.Document != null) {
+                this.Document.InvokeScript("SwitchMinimap", new object[] { shown});
+            } else {
+                throw new Exception("Cannot refresh Monaco's editor while the Document is null.");
+            }
+            MinimapEnabled = shown;
+        }
+
+
         /// <summary>
         /// Updates Monaco Editor's Settings with it's Parameter Structure.
         /// </summary>

@@ -10,3 +10,9 @@ E:\fengxinxin\fxx_github\MonacoNET\Monaco.NET\obj\Debug\Monaco.NET.dll
 E:\fengxinxin\fxx_github\MonacoNET\Monaco.NET\obj\Debug\Monaco.NET.pdb
 E:\fengxinxin\fxx_github\MonacoNET\Monaco.NET\obj\Debug\MonacoNET.csprojAssemblyReference.cache
 E:\fengxinxin\fxx_github\MonacoNET\Monaco.NET\obj\Debug\MonacoNET.csproj.CoreCompileInputs.cache
+E:\VsFiles\MonacoNET\Monaco.NET\bin\Debug\Monaco.NET.dll
+E:\VsFiles\MonacoNET\Monaco.NET\bin\Debug\Monaco.NET.pdb
+E:\VsFiles\MonacoNET\Monaco.NET\obj\Debug\MonacoNET.csprojAssemblyReference.cache
+E:\VsFiles\MonacoNET\Monaco.NET\obj\Debug\MonacoNET.csproj.CoreCompileInputs.cache
+E:\VsFiles\MonacoNET\Monaco.NET\obj\Debug\Monaco.NET.dll
+E:\VsFiles\MonacoNET\Monaco.NET\obj\Debug\Monaco.NET.pdb
