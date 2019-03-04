@@ -81,7 +81,7 @@ namespace Demo
 
         private void showMiniMapToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            monaco.MinimapEnabled = !showMiniMapToolStripMenuItem.Checked;
+            monaco.ShowMiniMap(!showMiniMapToolStripMenuItem.Checked);
             showMiniMapToolStripMenuItem.Checked = !showMiniMapToolStripMenuItem.Checked;
         }
 
