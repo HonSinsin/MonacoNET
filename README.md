@@ -1,6 +1,3 @@
-I am forked from op0x59/MonacoNET https://github.com/op0x59/MonacoNET
-thank a lot
-
 # Monaco.NET
 Monaco.NET is a C# Binding for the Monaco Editor.
 You can find the Original Monaco Editor (By Microsoft), here on github: https://github.com/Microsoft/monaco-editor
